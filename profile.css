@@ -1,0 +1,198 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 100%;
+    height: 97.5vh;
+    display: flex;
+    background-color: #000000;
+}
+.blog{
+    width: 20%;
+    position: fixed;
+    padding: 10px;
+    margin-left: 1.5%;
+    box-sizing: border-box;
+}
+.blog1{
+    border-radius: 7px;
+    width: 100%;
+    padding-bottom: 15px;
+    background-color: #141414;
+}
+.blog1 .box1{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.blog1 .box1 h1{
+   padding: 15px 0;
+   width: 80%;
+   margin: auto;
+   font-size: 50px;
+   color: white;
+   border-bottom: 2px solid white;
+}
+.blog1 .box2{
+    width: 100%;
+}
+.blog1 .box2 .menu{
+    width: 100%;
+}
+.blog1 .box2 .menu ul{
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.blog1 .box2 .menu ul li{
+    padding: 1.2px 0;
+    list-style-type: none;
+}
+.blog1 .box2 .menu a{
+    text-decoration: none;
+}
+.blog1 .box2 .menu a h3{
+    width: 92%;
+    margin: auto;
+    padding: 8px 0;
+    border-radius: 9px;
+    color: white;
+}
+ .blog1 .box2 .menu a h3:hover{
+    background-color: #2f2f2f;
+ }
+
+.blog2{
+    margin-left: 21.9%;
+    width: 78%;
+    height: 100%;
+}
+.blog2 .box1{
+    width: 100%;
+    height: 16%;
+    color: white;
+}
+.blog2 .box1 h1{
+    padding-top: 25px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 48px;
+}
+.blog2 .box1 p{
+    padding-top: 7px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 18px;
+}
+.blog2 .box2{
+    width: 96.5%;
+    border-radius: 9px;
+    background-color: #2d2d2d;
+    margin: auto;
+}
+.blog2 .box2 .pro{
+    width: 90%;
+    margin: auto;
+    height: 145px;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.blog2 .box2 .pro .pic{
+    width: 28%;
+    height: 85%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+.blog2 .box2 .pro .pic a{
+   text-decoration: none;
+   width: 100%;
+   height: 100%;
+   margin-left: 40px;
+}
+.blog2 .box2 .pro .pic a img{
+    width: 55%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% !important;
+}
+.blog2 .box2 .pro .des{
+    width: 65%;
+    height: 30%;
+    padding: 10px 0;
+    color: white;
+}
+.blog2 .box2 .pro .des h1{
+    margin: 0;
+    padding-top: 10px;
+}
+.blog2 .box2 .pro .des p{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 12px;
+    color: rgb(186, 186, 186);
+}
+.blog2 .box2 .pro .des button{
+    background-color: #66671a;
+    color: white;
+    padding: 4px 9px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.blog2 .box2 .pro .des button:hover{
+    background-color: #7d7d55;
+}
+.blog2 .box2 .item{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.blog2 .box2 .item .item1{
+    width: 45%;
+    height: 280px;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    border-radius: 7px;
+}
+.blog2 .box2 .item .item1 h1{
+    color: white;
+    margin: 0;
+    font-size: 29px;
+    padding-bottom: 5px;
+}
+.blog2 .box2 .item .item1 p{
+    color: rgb(176, 176, 176);
+    margin: 0;
+    padding-bottom: 5px;
+}
+.blog2 .box2 .item .item1 .btn{
+    width: 35%;
+    margin-left: 65%;
+    padding: 6px 0;
+    border-radius: 20px;
+    color: white;
+    background-color: #24327d;
+}
+.blog2 .box2 .item .item1 .btn span{
+    border: 2px solid #021473;
+    padding: 5px 7px;
+    border-radius: 50%;
+    margin: 0;
+}
+.blog2 .box2 .item .item1 .btn:hover{
+    background-color: #151e4d;
+    cursor: pointer;
+}
+.blog2 .img{
+    width: 100%;
+    margin-top: 20px;
+}
+.blog2 .img img{
+    width: 100%;
+    object-fit: cover;
+}
